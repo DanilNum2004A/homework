@@ -423,3 +423,23 @@
     margin-left: 50px;
     margin-bottom: 50px;
 }
+
+#p-interactive-artwork {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    color: black;
+    white-space: pre;
+}
