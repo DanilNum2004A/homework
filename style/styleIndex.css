@@ -1,0 +1,425 @@
+#boby {
+    background-color: aliceblue;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    align-items: baseline;
+    padding: .5rem;
+    gap: 1rem;
+}
+
+#header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    white-space: pre;
+}
+
+#logo {
+    height: 50px;
+    width: 90px;
+}
+
+#header__menuOne {
+    display: flex;
+    font-size: 80px aktiv-grotesk;
+    font-weight: 500;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+
+#header__menu {
+    display: flex;
+    font-size: 80px aktiv-grotesk;
+    font-weight: 500;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#header__menu:hover {
+    display: flex;
+    color: black;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#nav {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#gif {
+    width: 100%;
+    margin: 250px;
+    padding-left: 100px;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+#padding {
+    padding-right: 100px;
+}
+
+#youtube {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#bottom {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(129, 129, 129);
+}
+
+#TOUR {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#imgTOUR {
+    text-align: center;
+}
+
+#tickets {
+    display: flex;
+    margin-top: 25px;
+    font-size: 18px;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    height: 95px;
+}
+
+#header__menuTickets {
+    display: flex;
+    font-weight: 500;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+    white-space: nowrap;
+    font-size: 13.5px !important;
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin-left: 20px;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+    white-space: pre;
+}
+
+#header__menuTickets:hover {
+    display: flex;
+    text-decoration: underline;
+    padding: 0;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#li {
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-right: 15px;
+    white-space: pre;
+}
+
+#header__menuTicketsTwo {
+    display: flex;
+    font-weight: 500;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 200px;
+    margin-left: auto;
+    white-space: pre;
+}
+
+#btn {
+    display: flex;
+    vertical-align: top;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-left: 220px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#btn:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#btnTwo {
+    display: flex;
+    vertical-align: top;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#btnTwo:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#margin-tops {
+    margin-top: 50px;
+}
+
+#button-stream-the-album {
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 30px;
+    padding: 10px 30px;
+    color: blue;
+    font-weight: 600;
+    border: 2px solid blue;
+    margin: 0 auto;
+    display: block;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#button-stream-the-album:hover {
+    background-color: blue;
+    color: white;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#tap-or-click {
+    width: 1300px;
+    height: 100px;
+}
+
+#tap-or-click-story {
+    width: 1300px;
+    height: 130px;
+}
+
+#MGMT {
+    font-size: 35px;
+    font-weight:bold;
+    text-align: center;
+    
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    margin-bottom: 0;
+    text-transform: uppercase;  
+    white-space: pre;
+}
+
+#nav-J-Set {
+    margin-top: 0;
+    padding: 0; 
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+#nav-email-info {
+    margin-top: 15px;
+    padding: 0; 
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    white-space: pre;
+}
+
+#BOOKING {
+    margin-top: 25px;
+    font-weight:bold;
+    padding: 0; 
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+#sponsors {
+   
+    font-weight:bold;
+    padding: 0; 
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+#margin-tops-small {
+    margin-top: 24px;
+}
+
+#email-button {
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0; 
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    white-space: pre;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#email-button:hover {
+    text-decoration: underline;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#margin-tops-big {
+    margin-top: 100px;
+}
+
+#a-menu-down {
+    display: flex;
+    
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    font-weight: bold;
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    color: black;
+    white-space: pre;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#a-menu-down:hover {
+    text-decoration: underline;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#nav-menu-down {
+    display: flex;
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#container-footer-img {
+    display: flex;
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+}
+
+#img-footer {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
