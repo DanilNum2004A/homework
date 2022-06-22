@@ -443,3 +443,31 @@
     color: black;
     white-space: pre;
 }
+
+#img-Photo-journal-2022 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#img-Photo-journal-Mini {
+    display: block;
+    width: 100%;
+}
+
+.img-Photo-journal{
+    display: block;
+    width: 24%;
+    margin-left: 10px;
+}
+
+#container-photo-jornal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    width: 100%;
+     max-width: 1300px;
+    padding: 0 15px;
+    overflow-x: hidden;
+
+}
