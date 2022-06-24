@@ -522,7 +522,7 @@
     left: 0;
 }
 
-.popup__body {
+.popup__product {
   min-height: 100%;
   display: flex;
   align-items: center;
