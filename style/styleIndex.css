@@ -40,7 +40,7 @@
     width: 90px;
 }
 
-#header__menuOne {
+#header__menu__weight {
     display: flex;
     font-size: 80px aktiv-grotesk;
     font-weight: 500;
