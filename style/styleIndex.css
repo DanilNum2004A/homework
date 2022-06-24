@@ -559,3 +559,7 @@
 body.lock {
     overflow: hidden;
 }
+
+.a_decor_none {
+    text-decoration: none;
+}
